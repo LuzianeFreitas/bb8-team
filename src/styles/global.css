@@ -1,0 +1,27 @@
+:root {
+    --dark-gray: #3B3B3B;
+    --light-yellow: #F7B633;
+    --dark-orange: #FC4A1A;
+    --bg: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    @media (max-width: 1080px) {
+        font-size: 93.75%;
+    }
+
+    @media (max-width: 720px) {
+        font-size: 87.5%;
+    }
+}
+
+body {
+    background: var(--bg);
+    --webkit-font-smoothing: antialiased;
+}
