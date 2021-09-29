@@ -1,14 +1,36 @@
 <template>
-    <form action="">
-        <label for="email"></label>
-        <input type="text" name="email" placeholder="email">
-        <label for="password"></label>
-        <input type="text" name="password" placeholder="password">
+    <b-form>
+      <b-form-group
+        id="input-group-1"
+        label-for="email"
+        class="form-group"
+      >
+        <b-form-input
+          id="email"
+          type="email"
+          placeholder="Email"
+          required
+        ></b-form-input>
+      </b-form-group>
 
-        <input type="checkbox" name="logged" id="logged">
+      <b-form-group id="input-group-2" label-for="password" class="form-group">
+        <b-form-input
+          id="password"
+          placeholder="password"
+          required
+        ></b-form-input>
+      </b-form-group>
+      
+      <b-form-group id="input-group-3" class="form-group">
+        <b-form-checkbox-group
+          id="logged"
+        >
+          <b-form-checkbox value="me">Keep me logged in</b-form-checkbox>
+        </b-form-checkbox-group>
+      </b-form-group>
 
-        <button type="submit">Log in</button>
-    </form>
+      <b-button type="submit">Log in</b-button>
+    </b-form>
 </template>
 
 <script>
@@ -18,5 +40,7 @@ export default {
 </script>
 
 <style>
-
+    .form-group {
+        padding-bottom: 1.8rem;
+    }
 </style>

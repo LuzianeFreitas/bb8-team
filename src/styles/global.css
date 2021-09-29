@@ -1,5 +1,6 @@
 :root {
     --dark-gray: #3B3B3B;
+    --light-gray: #7C7C7C;
     --light-yellow: #F7B633;
     --dark-orange: #FC4A1A;
     --bg: #FFFFFF;
@@ -23,5 +24,12 @@ html {
 
 body {
     background: var(--bg);
+    background-image: url("../assets/bg.svg");
+    background-repeat: repeat-y;
     --webkit-font-smoothing: antialiased;
+    font-family:  Roboto, sans-serif;
+}
+
+button {
+    cursor: pointer;
 }
