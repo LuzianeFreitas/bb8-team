@@ -16,6 +16,10 @@
 
 <a href="https://www.figma.com/file/87P2bmC0xNGOaRWqvMFeR3/BB8-Team-UI-Copy/duplicate ">Protótipo figma</a>
 
+<h3> 👩‍💻 Deploy </h3>
+
+<a href="https://bb8-team-one.vercel.app/#/">Visitar</a>
+
 
 <h3> Dependencias </h3>
 
@@ -41,5 +45,5 @@ yarn build
 yarn lint
 ``` -->
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<!-- ### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/). -->
