@@ -29,7 +29,7 @@
         </b-form-checkbox-group>
       </b-form-group>
 
-      <b-button type="submit">Log in</b-button>
+      <b-button class="w-100 btn-logIn" type="submit">Log in</b-button>
     </b-form>
 </template>
 
@@ -41,6 +41,19 @@ export default {
 
 <style>
     .form-group {
-        padding-bottom: 1.8rem;
+      padding-bottom: 1.8rem;
+    }
+
+    .btn-logIn {
+      background: var(--light-yellow);
+      border: 1px solid var(--light-yellow);
+
+      transition: filter 0.2s;
+    }
+
+    .btn-logIn:hover {
+      filter: brightness(0.9);
+      background: var(--light-yellow);
+      border: 1px solid var(--light-yellow);
     }
 </style>
