@@ -1,16 +1,18 @@
 <template>
   <div id="app">
-    <login/>
+    <main-menu></main-menu>
+    <transition name="pagina">
+      <router-view></router-view>
+    </transition>
   </div>
 </template>
 
 <script>
-import Login from './views/Login'
-
+import MainMenu from './components/mainMenu/MainMenu'
 export default {
   name: 'App',
   components: {
-    Login
+    MainMenu
   }
 }
 </script>

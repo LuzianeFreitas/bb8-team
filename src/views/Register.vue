@@ -5,7 +5,7 @@
             <h2 class="pt-3 text-center">Register</h2>
             <register-form class="pt-3"/>
             <p class="pt-4 pb-4 d-flex justify-content-center align-items-center">Já tem uma conta? <a href=""> <strong>Login</strong> </a></p>
-            <footer class="d-flex justify-content-center align-items-center"> <small> © 2021 BB8 Team. All rights reserved.</small></footer>
+            <footer class="pb-2 d-flex justify-content-center align-items-center"> <small> © 2021 BB8 Team. All rights reserved.</small></footer>
         </div>  
     </div>
 
@@ -15,6 +15,7 @@
 import RegisterForm from '../components/registerForm/RegisterForm'
 
 export default {
+    name: 'Register',
     components: {
         RegisterForm
     }
@@ -23,7 +24,7 @@ export default {
 
 <style>
     .container {
-        margin-top: 8rem;
+        margin-top: 2rem;
     }
 
     img {
