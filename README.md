@@ -7,7 +7,7 @@
 
 <h3> 🎯 Desafios</h3>
 
-- [ ]  Desenvolver as páginas de Login e Cadastro da plataforma;
+- [x]  Desenvolver as páginas de Login e Cadastro da plataforma;
 - [ ]  Desenvolver tudo acima + a página principal e o modo escuro;
 - [ ]  Desenvolver tudo descrito acima + as páginas mobile.
 
