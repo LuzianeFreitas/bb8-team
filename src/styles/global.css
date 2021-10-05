@@ -38,4 +38,11 @@ button {
 
 a {
     text-decoration: none;
+    color: #fff;
+    transition: filter 0.2s;
+}
+
+a:hover {
+    filter: brightness(0.9);
+    color: #fff;
 }

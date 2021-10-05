@@ -45,15 +45,15 @@ export default {
     }
 
     .btn-logIn {
-      background: var(--light-yellow);
-      border: 1px solid var(--light-yellow);
+      background: var(--light-orange);
+      border: 1px solid var(--light-orange);
 
       transition: filter 0.2s;
     }
 
     .btn-logIn:hover {
       filter: brightness(0.9);
-      background: var(--light-yellow);
-      border: 1px solid var(--light-yellow);
+      background: var(--light-orange);
+      border: 1px solid var(--light-orange);
     }
 </style>
