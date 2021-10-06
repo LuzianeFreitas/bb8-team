@@ -25,8 +25,8 @@ html {
 
 body {
     background: var(--bg);
-    background-image: url("../assets/bg.svg");
-    background-repeat: repeat-y;
+    background-image: url("../assets/bg.svg"), url("../assets/bg-dots.svg");
+    background-repeat: repeat-y, repeat;
     --webkit-font-smoothing: antialiased;
     font-family:  Roboto, sans-serif;
     color: var(--light-gray);
