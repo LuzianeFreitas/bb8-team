@@ -1,7 +1,7 @@
 <template>
     <div>
-        <div class="row">
-            <div class="col justify-content-between">
+        <div >
+            <div>
                 <h1 class="title">
                     Quality for chip.
                 </h1>
@@ -14,9 +14,9 @@
                 </b-button> 
             </div>
 
-            <img class="col ilustration" src="../../assets/ilustration.svg" alt="Ilustração">
+            <img class=" ilustration" src="../../assets/ilustration.svg" alt="Ilustração">
         </div>
-        <div class="row mt-3 justify-content-center">
+        <div>
             <img class="btn-vetor" src="../../assets/vector.svg" alt="seta">
         </div>
 
@@ -54,8 +54,7 @@ export default {
 }
 
 .btn-vetor {
-    width: 43px;
-    height: 21.49px;
+    height: 2rem;
 }
 
 
