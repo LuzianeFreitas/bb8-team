@@ -9,6 +9,7 @@
 
     <b-collapse class="d-flex justify-content-end" id="nav-collapse" is-nav>
       <b-navbar-nav>
+        <b-nav-item class="btn-login-menu"> <router-link to="/Home">Home</router-link></b-nav-item>
         <b-nav-item class="btn-login-menu"> <router-link to="/Login">Login</router-link></b-nav-item>
         <!-- <b-nav-item href="#">Disabled</b-nav-item> -->
       </b-navbar-nav>

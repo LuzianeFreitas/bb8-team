@@ -1,5 +1,5 @@
 <template>
-    <div class="p-5" style="background: #FFA540">
+    <div class="p-5" style="background: #FFA540; color: #fff">
         <div class="d-flex justify-content-between">
             <section>
                 <h2>BB8 Team</h2>
