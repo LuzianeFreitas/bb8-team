@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>What our customers are saying...</h1>
+        <h1 class="title">What our customers are saying...</h1>
         <article>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ulla.

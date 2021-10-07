@@ -26,8 +26,8 @@ html {
 
 body {
     background: var(--bg);
-    background-image: url("../assets/bg.svg"), url("../assets/bg-dots.svg");
-    background-repeat: repeat-y, repeat;
+    background-image: url("../assets/bg-dots.svg");
+    background-repeat: repeat;
     --webkit-font-smoothing: antialiased;
     font-family:  Roboto, sans-serif;
     color: var(--light-gray);
@@ -46,4 +46,8 @@ a {
 a:hover {
     filter: brightness(0.9);
     color: #fff;
+}
+
+.title {
+    color: var(--light-orange);
 }

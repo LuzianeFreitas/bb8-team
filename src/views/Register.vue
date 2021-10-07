@@ -1,7 +1,7 @@
 <template>
     <div class="container d-flex justify-content-center align-items-center">
         <div class="row w-25">
-            <img src="../assets/logo.svg" alt="Logo">
+            <img class="logo" src="../assets/logo.svg" alt="Logo">
             <h2 class="pt-3 text-center">Register</h2>
             <register-form class="pt-3"/>
             <p class="pt-4 pb-4 d-flex justify-content-center align-items-center">Já tem uma conta? <router-link to="/Login"> <strong>Login</strong> </router-link></p>
@@ -27,7 +27,7 @@ export default {
         margin-top: 2rem;
     }
 
-    img {
+    .logo {
         width: 6rem;
         height: 6rem;
     }
