@@ -4,7 +4,14 @@
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
         </p>
-        <img src="../../assets/companies.svg" alt="Companies">
+        <div>
+            <img src="../../assets/logo-6.svg" alt="Companies">
+            <img src="../../assets/logo-7.svg" alt="Companies">
+            <img src="../../assets/logo-8.svg" alt="Companies">
+            <img src="../../assets/logo-9.svg" alt="Companies">
+            <img src="../../assets/logo-24.svg" alt="Companies">
+        </div>
+        
     </div>
 </template>
 

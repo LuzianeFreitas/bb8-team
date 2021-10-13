@@ -3,9 +3,9 @@
         <h1 class="title pb-3 text-center">What our customers are saying...</h1>
         <div class="d-flex container-testemunias">
             <article>
-                <!-- <div>
+                <div>
                     <img src="../../assets/aspas.svg" alt="aspas">
-                </div> -->
+                </div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ulla.
                 </p>
@@ -14,9 +14,9 @@
                 </span>
             </article>
             <article>
-                <!-- <div>
+                <div>
                     <img src="../../assets/aspas.svg" alt="aspas">
-                </div> -->
+                </div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ulla.
                 </p>
@@ -25,9 +25,9 @@
                 </span>
             </article>
             <article>
-                <!-- <div>
+                <div>
                     <img src="../../assets/aspas.svg" alt="aspas">
-                </div> -->
+                </div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ulla.
                 </p>
@@ -58,8 +58,12 @@ export default {
 
 .container-testemunias article div{
     position: absolute;
-    top: 0 !important;
+    top: -25px;
     left: 0;
+}
+
+.container-testemunias article div img {
+    width: 50px;
 }
 
 </style>
