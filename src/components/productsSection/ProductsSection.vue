@@ -44,7 +44,7 @@ export default {
     margin: 1rem;
     padding: 1rem;
     border: 1px solid;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .container-products article h2 {
@@ -65,16 +65,16 @@ export default {
 .container-products article:nth-child(1){
     color: #BE49E8;
     border-color: #BE49E8;
-    background-color: rgba(190, 73, 232, 0.05);
+    background-color: rgba(254, 252, 254, 1);
 }
 .container-products article:nth-child(2){
     color: #5398E9;
     border-color: #5398E9;
-    background-color: rgba(90, 155, 233, 0.05);
+    background-color: rgba(250, 252, 255, 1);
 }
 .container-products article:nth-child(3){
     color: #2BBC5D;
     border-color: #2BBC5D;
-    background-color: rgba(43, 188, 93, 0.05);
+    background-color: rgba(250, 255, 252, 1);
 }
 </style>
