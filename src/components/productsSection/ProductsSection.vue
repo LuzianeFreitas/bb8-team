@@ -1,7 +1,7 @@
 <template>
     <div class="container-products p-5">
         <h1 class="title pb-3 text-center">More than an agency.</h1>
-        <div class="d-flex">
+        <div class="d-flex justify-content-around container-products">
             <article>
                 <h2>Writing</h2>
                 <img src="../../assets/writing.svg" alt="writing">
@@ -34,5 +34,47 @@ export default {
 </script>
 
 <style>
+.container-products article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "title icon"
+    "content content";
 
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.container-products article h2 {
+    grid-area: title;
+}
+
+.container-products article img {
+    grid-area: icon;
+    justify-self: end
+}
+
+.container-products article p {
+    grid-area: content;
+    color: var(--light-gray);
+    padding-top: 1rem;
+}
+
+.container-products article:nth-child(1){
+    color: #BE49E8;
+    border-color: #BE49E8;
+    background-color: rgba(190, 73, 232, 0.05);
+}
+.container-products article:nth-child(2){
+    color: #5398E9;
+    border-color: #5398E9;
+    background-color: rgba(90, 155, 233, 0.05);
+}
+.container-products article:nth-child(3){
+    color: #2BBC5D;
+    border-color: #2BBC5D;
+    background-color: rgba(43, 188, 93, 0.05);
+}
 </style>
