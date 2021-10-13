@@ -3,7 +3,7 @@ import Register from '../views/Register.vue'
 import Home from '../views/Home.vue'
 
 export const routes = [
-    {path: '/'},
+    {path: ''},
     { path: '/Login', component: Login },
     { path: '/Register', component: Register },
     { path: '/Home', component: Home }

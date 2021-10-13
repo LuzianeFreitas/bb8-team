@@ -29,7 +29,8 @@
         </b-form-checkbox-group>
       </b-form-group>
 
-      <b-button class="w-100 btn-logIn" type="submit">Log in</b-button>
+      <!-- <b-button class="w-100 btn-logIn"> <router-link to="/Home">Log in</router-link></b-button> -->
+      <button  class="w-100 btn-logIn"><router-link to="/Home">Log in</router-link></button>
     </b-form>
 </template>
 
