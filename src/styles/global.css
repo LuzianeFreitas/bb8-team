@@ -26,8 +26,6 @@ html {
 
 body {
     background: var(--bg);
-    background-image: url("../assets/bg-dots.svg");
-    background-repeat: repeat;
     --webkit-font-smoothing: antialiased;
     font-family:  Roboto, sans-serif;
     color: var(--light-gray);
@@ -49,5 +47,18 @@ a:hover {
 }
 
 .title {
+    color: var(--light-orange);
+}
+
+.container {
+    margin-top: 2rem;
+}
+
+.logo {
+    width: 6rem;
+    height: 6rem;
+}
+
+strong {
     color: var(--light-orange);
 }

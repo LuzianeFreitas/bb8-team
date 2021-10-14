@@ -3,7 +3,7 @@
         <h1 class="title pb-3 text-center">What our customers are saying...</h1>
         <div class="d-flex container-testemunias">
             <article>
-                <div>
+                <div class="aspas">
                     <img src="../../assets/aspas.svg" alt="aspas">
                 </div>
                 <p>
@@ -14,7 +14,7 @@
                 </span>
             </article>
             <article>
-                <div>
+                <div class="aspas">
                     <img src="../../assets/aspas.svg" alt="aspas">
                 </div>
                 <p>
@@ -25,7 +25,7 @@
                 </span>
             </article>
             <article>
-                <div>
+                <div class="aspas">
                     <img src="../../assets/aspas.svg" alt="aspas">
                 </div>
                 <p>
@@ -56,7 +56,7 @@ export default {
     color: var(--dark-gray);
 }
 
-.container-testemunias article div{
+.container-testemunias article .aspas{
     position: absolute;
     top: -25px;
     left: 0;

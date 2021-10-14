@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container-home">
         <main-section class="mb-5"/>
         <companies-section class="mb-5"/>
         <products-section class="mb-5"/>
@@ -27,7 +27,10 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+    body .container-home{
+        background-image: url("../assets/bg-dots.svg");
+        background-repeat: repeat;
+    }
 </style>
 
