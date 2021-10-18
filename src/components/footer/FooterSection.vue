@@ -5,7 +5,7 @@
                 <h2>BB8 Team</h2>
                 <h3>Quality for cheap</h3>
                 <div class="d-flex flex-column">
-                    <router-link to="/Home">Back to the top</router-link>
+                    <a href="#">Back to the top</a>
                     <router-link to="/Login">Login</router-link>
                     <router-link to="/Register">Register</router-link>
                 </div>

@@ -1,8 +1,8 @@
 <template>
 <div class="container-login">
-    <div class="container d-flex justify-content-center align-items-center">
+    <div class="d-flex justify-content-center align-items-center">
         <div class="row w-25">
-            <div class="d-flex justify-content-center align-items-center">
+            <div class="mt-4 d-flex justify-content-center align-items-center">
                 <img class="logo" src="../assets/logo.svg" alt="Logo">
             </div>
             
@@ -31,7 +31,7 @@ export default {
 <style>
     body .container-login{
         background-image: url("../assets/bg.svg");
-        background-size: cover
+        background-size: cover;
     }
 </style>
 

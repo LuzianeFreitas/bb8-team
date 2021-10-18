@@ -1,15 +1,15 @@
 <template>
-<div>
+<div class="shadow-sm w-100">
   <b-navbar class="navbar">
     <b-navbar-brand href="#">
-        <img class="d-inline-block align-top" src="../../assets/logo-menu.svg" alt="logo">
+      <router-link to="/"><img class="d-inline-block align-top" src="../../assets/logo-menu.svg" alt="logo"></router-link>
     </b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse class="d-flex justify-content-end" id="nav-collapse" is-nav>
       <b-navbar-nav class="d-flex justify-content-between">
-        <b-nav-item class="btn-item"> <router-link to="">Contact</router-link></b-nav-item>
+        <b-nav-item class="btn-item"> <router-link to="/Home">Home</router-link></b-nav-item>
         <b-nav-item class="btn-item"> <router-link to="/Register">Register</router-link></b-nav-item>
         <b-nav-item class="btn-login-menu"> <router-link to="/Login">Login</router-link></b-nav-item>
         <!-- <b-nav-item href="#">Disabled</b-nav-item> -->
