@@ -8,8 +8,8 @@
 <h3> 🎯 Desafios</h3>
 
 - [x]  Desenvolver as páginas de Login e Cadastro da plataforma;
-- [ ]  Desenvolver tudo acima + a página principal e o modo escuro;
-- [ ]  Desenvolver tudo descrito acima + as páginas mobile.
+- [x]  Desenvolver tudo acima + a página principal e o modo escuro;
+- [x]  Desenvolver tudo descrito acima + as páginas mobile.
 
 
 <h3> 🎨 Design</h3>
