@@ -7,6 +7,15 @@
     --bg: #FFFFFF;
 }
 
+:root.dark-theme {
+    --dark-gray: #3B3B3B;
+    --light-gray: #7C7C7C;
+    --light-yellow: #F7B633;
+    --light-orange: #F97423;
+    --dark-orange: #FC4A1A;
+    --bg: #2C2C2C;
+}
+
 * {
     margin: 0;
     padding: 0;
