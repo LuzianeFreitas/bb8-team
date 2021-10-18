@@ -52,8 +52,8 @@ export default {
     padding: 1rem;
     border: 1px solid var(--light-orange);
     border-radius: 20px;
-    background-color: rgba(255, 252, 248, 1);
-    color: var(--dark-gray);
+    background-color: var(--bg-tests);
+    color: var(--title-modes);
 }
 
 .container-testemunias article .aspas{

@@ -28,7 +28,7 @@ export default {
 <style>
 
 .navbar {
-    background: var(--bg);
+    background: var(--bg-nav);
     padding: 0.5rem;
 }
 

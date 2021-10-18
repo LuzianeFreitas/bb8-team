@@ -58,23 +58,23 @@ export default {
 
 .container-products article p {
     grid-area: content;
-    color: var(--light-gray);
+    color: var(--title-modes);
     padding-top: 1rem;
 }
 
 .container-products article:nth-child(1){
     color: #BE49E8;
     border-color: #BE49E8;
-    background-color: rgba(254, 252, 254, 1);
+    background-color: var(--bg-writing);
 }
 .container-products article:nth-child(2){
     color: #5398E9;
     border-color: #5398E9;
-    background-color: rgba(250, 252, 255, 1);
+    background-color: var(--bg-grafic);
 }
 .container-products article:nth-child(3){
     color: #2BBC5D;
     border-color: #2BBC5D;
-    background-color: rgba(250, 255, 252, 1);
+    background-color: var(--bg-soft);
 }
 </style>

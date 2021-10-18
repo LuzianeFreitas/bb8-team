@@ -91,7 +91,7 @@ export default {
     .switch-label {
         width: 5rem;
         border-radius: 4rem;
-        border: calc(4rem * 0.025) solid #cacaca;
+        border: calc(4rem * 0.025) solid var(--light-orange);
         padding: calc(4.2rem * 0.1);
         font-size: calc(4rem * 0.35);
 
@@ -115,7 +115,7 @@ export default {
 
     .switch-toggle {
         position: absolute;
-        background-color:  #ebebeb;
+        background-color:  var(--light-orange);
         border-radius: 50%;
         top: 1;
         left: calc(4.3rem * 0.07);

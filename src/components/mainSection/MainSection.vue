@@ -5,7 +5,7 @@
                 Quality for chip.
             </h1>
 
-            <p>
+            <p style="color: var()">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus repudiandae possimus corrupti sit quis, perferendis, aliquam inventore asperiores officia blanditiis ut similique fuga unde vitae. Rem repellat pariatur voluptate dicta!
             </p>
             <b-button class="btn-hire-us">

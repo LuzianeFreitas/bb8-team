@@ -1,19 +1,35 @@
 :root {
     --dark-gray: #3B3B3B;
     --light-gray: #7C7C7C;
+    --transparent-gray: rgba(232, 232, 232, 0.2);
     --light-yellow: #F7B633;
     --light-orange: #F97423;
     --dark-orange: #FC4A1A;
     --bg: #FFFFFF;
+    --bg-nav: #FFFFFF;
+    --bg-writing: rgba(254, 252, 254, 1);
+    --bg-grafic: rgba(250, 252, 255, 1);
+    --bg-soft: rgba(250, 255, 252, 1);
+    --bg-tests: rgba(255, 252, 248, 1);
+
+    --title-modes: #515151;
 }
 
 :root.dark-theme {
-    --dark-gray: #3B3B3B;
-    --light-gray: #7C7C7C;
+    --dark-gray: #EAEAEA;
+    --light-gray: #9E9E9E;
+    --transparent-gray: rgba(0, 0, 0, 0.2);
     --light-yellow: #F7B633;
     --light-orange: #F97423;
     --dark-orange: #FC4A1A;
     --bg: #2C2C2C;
+    --bg-nav: #242424;
+    --bg-writing: #232323;
+    --bg-grafic: #232323;
+    --bg-soft: #232323;
+    --bg-tests: #232323;
+
+    --title-modes: #C7C6C6;
 }
 
 * {
