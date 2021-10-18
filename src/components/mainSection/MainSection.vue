@@ -5,14 +5,14 @@
                 Quality for chip.
             </h1>
 
-            <p style="color: var()">
+            <p style="color: var(--title-modes)">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus repudiandae possimus corrupti sit quis, perferendis, aliquam inventore asperiores officia blanditiis ut similique fuga unde vitae. Rem repellat pariatur voluptate dicta!
             </p>
             <b-button class="btn-hire-us">
                 Hire us
             </b-button>
         </article>
-        <div>
+        <div class="container-img">
             <img src="../../assets/ilustration.svg" alt="Ilustração">
         </div>
         
@@ -58,5 +58,19 @@ export default {
     height: 2rem;
 }
 
+@media (max-width: 575.98px) {
+    .container-img {
+        display: none;
+    }
+
+    .container-main-section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .container-btn {
+        display: none;
+    }
+}
 
 </style>

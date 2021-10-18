@@ -77,4 +77,10 @@ export default {
     border-color: #2BBC5D;
     background-color: var(--bg-soft);
 }
+
+@media (max-width: 575.98px) {
+    .container-products {
+        display: block !important;
+    }
+}
 </style>

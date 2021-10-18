@@ -4,7 +4,7 @@
         <p class="title-companies">
             Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
         </p>
-        <div>
+        <div class="container-img-companies">
             <img src="../../assets/logo-6.svg" alt="Companies">
             <img src="../../assets/logo-7.svg" alt="Companies">
             <img src="../../assets/logo-8.svg" alt="Companies">
@@ -29,6 +29,12 @@ export default {
 
 .title-companies {
     color: var(--title-modes);
+}
+
+@media (max-width: 575.98px) {
+    .container-img-companies {
+        text-align: center;
+    }
 }
 
 </style>

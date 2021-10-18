@@ -66,5 +66,11 @@ export default {
     width: 50px;
 }
 
+@media (max-width: 575.98px) {
+    .container-testemunias {
+        display: block !important;
+    }
+}
+
 </style>
 
